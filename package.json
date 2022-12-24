@@ -1,0 +1,17 @@
+{
+  "name": "cosmjs-integration",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "NODE_ENV=production ts-node main.ts",
+    "local": "NODE_ENV=local ts-node main.ts",
+    "generate-key": "ts-node generate_mnemonic.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "ts-node": "10.7.0"
+  },
+  "dependencies": {
+    "@cosmjs/stargate": "0.28.2",
+    "dotenv": "^16.0.3"
+  }
+}

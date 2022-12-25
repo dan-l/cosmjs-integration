@@ -1,5 +1,13 @@
 # CosmJS 
-`npm run start` uses Cosmos Testnet 
+
+Integrate with Cosmos using CosmJS 
+- Connect to RPC 
+- Read account balance
+- Sign and Broadcast transaction
+
+## Run
+`npm run start` uses Cosmos Testnet
+
 `npm run local` uses local build SIMD
 
 ## How to get local SIMD up and running
